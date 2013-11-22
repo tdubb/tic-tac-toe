@@ -109,8 +109,8 @@ $(document).on('click', '#board .space', function (e) {
 });
 
 $(document).on('game-win', function (e, winner) {
-   alert(winner + " who won the game");
+   alert(winner + " won the game");
 });
 
-// Start the game
+ setNextTurn();
 
