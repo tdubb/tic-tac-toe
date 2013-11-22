@@ -24,3 +24,8 @@
   background: url("img/junkfood.jpg");
   background-size: 100% 100%;
 }
+
+#board .space.truthy {
+  background: url("img/chuck.jpg");
+  background-size: 100% 100%;
+}
