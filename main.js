@@ -100,10 +100,11 @@ $(document).on('click', '#board .space', function (e) {
   else {
     spaces[spaceNum] = currentPlayer;
     $('#board .space:eq(' + spaceNum + ')').addClass(currentPlayer);
-    setNextTurn();  
+      
   }
 
   checkForWinner();
+  setNextTurn();
   
 });
 
